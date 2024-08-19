@@ -7,36 +7,36 @@ export const HERO_CONTENT = `An enthusiastic person who likes to learn new thing
                               3 years of working experience. Have worked with various roles such as DevOps Engineer, Fullstack
                               Developer, Freelancer, Design / Software Quality Assurance`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `Gatau males, Gatau males, Gatau males, Gatau males, Gatau males, Gatau males, Gatau males`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "2022 - Present",
+    role: "Design Quality Assurance & Software Quality Assurance",
+    company: "PT. Hartono Istana Teknologi (Polytron)",
+    description: `Lead the team to carry out product performance and design testing. verification and validation according to UAT for website testing.`,
+    technologies: ["Selenium", "Postman", "Manual Testing", "Automation Testing"],
   },
   {
     year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    role: "PHP Fullstack",
+    company: "Square Gate One",
+    description: `Being a fullstack programmer, designing the frontend of the bank payment display, adding features to the payment gateway on the backend and updating and migrating data in the database.`,
+    technologies: ["HTML", "CSS", "Zend Framework", "mySQL","Oracle 11g","Git","Ubuntu"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2021",
+    role: "PHP & Android Programmer",
+    company: "Koperasi Indora",
+    description: `menjadi fullstack PHP dan Android, mengembangkan fitur pembayaran, membuat UI untuk marketplace penjualan sembako.`,
+    technologies: ["PHP", "Code Igniter", "Android Native", "MySQL","Navicat"],
+  },
+  {
+    year: "2019 - 2020",
+    role: "System Engineer, Intern",
+    company: "PT. Multipolar Technology, Tbk",
+    description: `Job description, checking bugs in the code that will be updated to the production server. Prepare the server and software that will be used to migrate the database and update customer data using oracle 11g.`,
+    technologies: ["Docker", "Redhat 7", "Angular", "Java Springboot"],
   },
 ];
 
@@ -72,7 +72,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Indonesia, Jawa Tengah ",
+  phoneNo: "+62858-5181-6241 ",
+  email: "christiansatrio30@gmail.com",
 };

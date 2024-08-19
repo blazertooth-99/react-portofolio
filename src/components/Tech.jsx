@@ -1,7 +1,8 @@
 import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
-import { SiMongodb } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
+import { DiJavascript } from "react-icons/di";
+import { DiDatabase } from "react-icons/di";
+import { DiCodeigniter } from "react-icons/di";
+import { DiPhp } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { motion } from "framer-motion";
@@ -38,42 +39,49 @@ const Tech = () => {
         initial="initial"
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
-          <RiReactjsLine className="text-7xl text-cyan-400" />
+          <RiReactjsLine className="text-7xl text-cyan-400" alt="React Js"/>
         </motion.div>
         <motion.div
         variants={iconVariants(3)}
         initial="initial"
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
-          <TbBrandNextjs className="text-7xl" />
+          <DiJavascript className="text-7xl text-orange-800" alt="JavaScript"/>
         </motion.div>
         <motion.div
         variants={iconVariants(4)}
         initial="initial"
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
-          <SiMongodb className="text-7xl text-green-500" />
+          <DiDatabase className="text-7xl text-cyan-800" alt="Database"/>
         </motion.div>
         <motion.div
         variants={iconVariants(2.5)}
         initial="initial"
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
-          <DiRedis className="text-7xl text-red-600" />
+          <DiCodeigniter className="text-7xl text-red-800" alt="Code Igniter"/>
+        </motion.div>
+        <motion.div
+        variants={iconVariants(2.5)}
+        initial="initial"
+        animate="animate"
+        className="rounded-2xl border-4 border-neutral-800 p-4">
+          <DiPhp className="text-7xl text-cyan-600" alt="Php"/>
         </motion.div>
         <motion.div
         variants={iconVariants(3)}
         initial="initial"
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
-          <FaNodeJs className="text-7xl text-green-500" />
+          <FaNodeJs className="text-7xl text-green-500" alt="Node Js"/>
         </motion.div>
         <motion.div
         variants={iconVariants(4)}
         initial="initial"
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
-          <BiLogoPostgresql className="text-7xl text-sky-700" />
+          <BiLogoPostgresql className="text-7xl text-sky-700" alt="PostgreSql"/>
         </motion.div>
       </motion.div>
     </div>
