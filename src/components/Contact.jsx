@@ -27,9 +27,11 @@ const Contact = () => {
           transition={{ duration: 1 }}
           className="my-4"
         >
+          <a href="https://wa.me/+6285851816241" target="_blank">Whatsapp : {" "}
           {CONTACT.phoneNo}
+          </a>
         </motion.p>
-        <a href="https://mail.google.com/mail/u/0/#inbox?compose=jrjtXDzggPZPppddbDcBTNpkZlPVhKdcJsjnhxThZJPKSSfNZLWkrmBKWNHLdCqZqRHxWmpn" className="border-b">
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=jrjtXDzggPZPppddbDcBTNpkZlPVhKdcJsjnhxThZJPKSSfNZLWkrmBKWNHLdCqZqRHxWmpn" className="border-b" target="_blank">Email : {" "}
           {CONTACT.email}
         </a>
       </div>

@@ -1,13 +1,16 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import MyKitchen from "../assets/projects/MyKitchen.jpg"
+import Koperasi from "../assets/projects/logo-Koperasi.png"
+import LogoBabel from "../assets/projects/logobabel.png"
+import CSLogo from "../assets/projects/CSLogo.png"
 
 export const HERO_CONTENT = `An enthusiastic person who likes to learn new things, especially in the field of technology. Has approximately
                               3 years of working experience. Have worked with various roles such as DevOps Engineer, Fullstack
                               Developer, Freelancer, Design / Software Quality Assurance`;
 
-export const ABOUT_TEXT = `Gatau males, Gatau males, Gatau males, Gatau males, Gatau males, Gatau males, Gatau males`;
+export const ABOUT_TEXT = `Hello, my name is Christian Satrio, usually called Satrio. 
+                          I graduated from Satya Wacana Christian University, Faculty of Informatics Engineering with a concentration in Application Developer, graduated in 2021. 
+                          I love learning about Javascript frameworks, such as React Js, Next Js, Node Js and Express Js and am exploring UI/UX.
+                          I have 3 years of experience with many roles that I have worked on. that's all the introduction from me. Thank you`;
 
 export const EXPERIENCES = [
   {
@@ -42,32 +45,36 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
+    title: "My Kitchen Design",
+    image: MyKitchen,
+    link: "https://www.figma.com/proto/58fGb202in1aAPbIEqaKPY/Untitled?t=McedLYR26235VIee-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&node-id=2-2&starting-point-node-id=2%3A2",
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "UI / UX design using figma, for the My Kitchen application, the use of the application as a guide to how to cook and there are many catalog recipes available.",
+    technologies: ["Wireframe", "Figma", "UI Design"],
   },
   {
-    title: "Task Management App",
-    image: project2,
+    title: "Koperasi Indora Web & Mobile",
+    image: Koperasi,
+    link: "https://github.com/blazertooth-99/PHP-Aplikasi-koperasi.git",
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Website dan Aplikasi android Koperasi indora, digunakan untuk pembayaran seperti pembelian sembako, pembayaran PDAM, token listrik, pulsa dan lain lain.",
+    technologies: ["HTML", "CSS", "PHP", "Code Igniter", "MySQL", "Android Native"],
   },
   {
     title: "Portfolio Website",
-    image: project3,
+    image: LogoBabel,
+    link: "https://github.com/blazertooth-99/angular-babel-product-catalogue.git",
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Babel Leathercraft website, used to catalog display products sold by babel brands.",
+    technologies: ["Angular 7", "CSS", "Bootstrap"],
   },
   {
-    title: "Blogging Platform",
-    image: project4,
+    title: "React Portofolio",
+    image: CSLogo,
+    link: "https://github.com/blazertooth-99/react-portofolio.git",
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["React Vite", "Tailwind"],
   },
 ];
 
