@@ -57,11 +57,11 @@ export const PROJECTS = [
     image: Koperasi,
     link: "https://github.com/blazertooth-99/PHP-Aplikasi-koperasi.git",
     description:
-      "Website dan Aplikasi android Koperasi indora, digunakan untuk pembayaran seperti pembelian sembako, pembayaran PDAM, token listrik, pulsa dan lain lain.",
+      "Koperasi Indora website and android application, used for payments such as food purchases, PDAM payments, electricity tokens, credit and others.",
     technologies: ["HTML", "CSS", "PHP", "Code Igniter", "MySQL", "Android Native"],
   },
   {
-    title: "Portfolio Website",
+    title: "Babel Leathercraft Website",
     image: LogoBabel,
     link: "https://github.com/blazertooth-99/angular-babel-product-catalogue.git",
     description:

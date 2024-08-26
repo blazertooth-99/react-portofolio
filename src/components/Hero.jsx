@@ -13,7 +13,7 @@ const container = (delay) => ({
 
 const Hero = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4 lg:mb-35">
+    <div className="border-b dark:border-neutral-700 border-neutral-900 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start"></div>
@@ -29,7 +29,7 @@ const Hero = () => {
           variants={container(0.5)}
           initial="hidden"
           animate="visible"
-            className="bg-gradient-to-r from-purple-900 via-slate-500 to-blue-700 bg-clip-text text-3xl tracking-tight text-transparent"
+            className="bg-gradient-to-r from-grey-700 via-slate-500 to-neutral-700 dark:bg-gradient-to-r from-slate-700 via-slate-500 to-blue-700 bg-clip-text text-3xl tracking-tight text-transparent"
           >
             Developer / Quality Assurance
           </motion.span>

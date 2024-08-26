@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Project = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <div className="border-b dark:border-neutral-700 border-neutral-900 pb-4">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -26,7 +26,7 @@ const Project = () => {
                 width={150}
                 height={150}
                 alt={project.title}
-                className="mb-6 rounded"
+                className="mb-6 rounded border border-neutral-400"
               />
             </motion.div>
             <motion.div
@@ -37,12 +37,12 @@ const Project = () => {
             >
               <a href={project.link} target="_blank">
               <h6 className="mb-2 font-semibold">{project.title}</h6>
-              <p className="mb-4 text-neutral-400">{project.description}</p>
+              <p className="mb-4 text-neutral-600 dark:text-neutral-400">{project.description}</p>
               </a>
               {project.technologies.map((tech, index) => (
                 <span
                   key={index}
-                  className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800"
+                  className="mr-2 rounded dark:bg-slate-200 bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-400  dark:text-gray-800"
                 >
                   {" "}
                   {tech}

@@ -17,7 +17,7 @@ const Contact = () => {
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 1 }}
-          className="my-4"
+          className="my-4 dark:text-neutral-300"
         >
           {CONTACT.address}
         </motion.p>
@@ -25,13 +25,13 @@ const Contact = () => {
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
           transition={{ duration: 1 }}
-          className="my-4"
+          className="my-4 dark:text-neutral-300"
         >
           <a href="https://wa.me/+6285851816241" target="_blank">Whatsapp : {" "}
           {CONTACT.phoneNo}
           </a>
         </motion.p>
-        <a href="https://mail.google.com/mail/u/0/#inbox?compose=jrjtXDzggPZPppddbDcBTNpkZlPVhKdcJsjnhxThZJPKSSfNZLWkrmBKWNHLdCqZqRHxWmpn" className="border-b" target="_blank">Email : {" "}
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=jrjtXDzggPZPppddbDcBTNpkZlPVhKdcJsjnhxThZJPKSSfNZLWkrmBKWNHLdCqZqRHxWmpn" className="border-b dark:text-neutral-300" target="_blank">Email : {" "}
           {CONTACT.email}
         </a>
       </div>

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Experience = () => {
   return (
-    <div className="border-b border-neutral-900">
+    <div className="border-b dark:border-neutral-700 border-neutral-900 pb-4">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -21,7 +21,7 @@ const Experience = () => {
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4"
             >
-              <p className="mb-2 text-sm text-neutral-400">{experience.year}</p>
+              <p className="mb-2 text-sm text-neutral-600 dark:text-neutral-300">{experience.year}</p>
             </motion.div>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
@@ -31,15 +31,15 @@ const Experience = () => {
             >
               <h6 className="mb-2 font-semibold">
                 {experience.role} -{" "}
-                <span className="text-sm text-purple-100">
+                <span className="text-sm dark:text-purple-100">
                   {experience.company}
                 </span>
               </h6>
-              <p className="mb-4 text-neutral-400">{experience.description}</p>
+              <p className="mb-4 text-neutral-700 dark:text-neutral-400">{experience.description}</p>
               {experience.technologies.map((tech, index) => (
                 <span
                   key={index}
-                  className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800"
+                  className="mr-2 mt-4 rounded dark:bg-slate-200 bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-400 dark:text-gray-800"
                 >
                   {""}
                   {tech}
