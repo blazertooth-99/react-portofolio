@@ -1,5 +1,5 @@
 import MyKitchen from "../assets/projects/MyKitchen.jpg"
-import Koperasi from "../assets/projects/logo-Koperasi.png"
+import Koperasi from "../assets/projects/logo-koperasi.png"
 import LogoBabel from "../assets/projects/logobabel.png"
 import CSLogo from "../assets/projects/CSLogo.png"
 
